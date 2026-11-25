@@ -4,15 +4,15 @@ Welcome to my Personal Portfolio Website!
 
 This website showcases my personal information, educational background, technical skills, projects, hobbies, and achievements.
 
-## 🌐 Live Website
+## Live Website
 
 **[Visit My Portfolio](https://portfolio-three-chi-xnhtk5mtwe.vercel.app)**
 
-## 👨‍💻 About Me
+## About Me
 
 Hi, I'm **Amrutanshu Satpathy**, a Computer Science student interested in technology, programming, and learning new things.
 
-## 📌 Website Sections
+## Website Sections
 
 - **Home:** Introduction and welcome message.
 - **About:** Basic information about me.
@@ -23,12 +23,12 @@ Hi, I'm **Amrutanshu Satpathy**, a Computer Science student interested in techno
 - **Achievements:** My accomplishments.
 - **Contact:** My contact information.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
 
-## ✨ Features
+## Features
 
 - Simple and clean design.
 - Easy navigation between sections.
@@ -36,17 +36,13 @@ Hi, I'm **Amrutanshu Satpathy**, a Computer Science student interested in techno
 - Responsive layout.
 - Beginner-friendly design.
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. Clone or download this repository.
 2. Open the project folder.
 3. Open `index.html` in your browser.
 
-## 📂 Repository
-
-[View Source Code on GitHub](https://github.com/Acekaz7/Portfolio)
-
-## 👤 Author
+## Author
 
 **Amrutanshu Satpathy**
 
