@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Portfolio</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        header{
+            background-color: #222;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 10%;
+        }
+
+        .header-text{
+            text-align: left;
+        }
+
+        .profile{
+            width: 150px;
+            height: 190px;
+            border-radius: 8px;
+            object-fit: cover;
+            object-position: center;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.08);
+        }
+
+        nav{
+            background-color: #444;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: lightgreen;
+        }
+
+        section{
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2{
+            color: green;
+            border-bottom: 2px solid lightgreen;
+            padding-bottom: 8px;
+        }
+
+        .card{
+            background-color: #e8f5e9;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        input, textarea{
+            width: 95%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button{
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: darkgreen;
+        }
+
+        footer{
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        html{
+            scroll-behavior: smooth;
+            }
+
+        @media screen and (max-width: 700px) {
+            header{
+                flex-direction: column;
+                padding: 20px;
+                gap: 10px;
+            }
+
+            .header-text{
+                text-align: center;
+            }
+
+            .profile{
+                width: 110px;
+                height: 140px;
+            }
+
+            nav a{
+                display: inline-block;
+                margin: 8px;
+            }
+
+            section{
+                margin: 10px;
+                padding: 15px;
+            }
+
+            input, textarea{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-text">
+            <h1>Amrutanshu Satpathy</h1>
+            <p>Computer Science Student</p>
+        </div>
+
+        <img src="Portfolio-Picture.jpeg" class="profile" alt="My Photo">
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to my personal portfolio website.</p>
+        <p>I am a Computer Science student interested in technology, programming and learning new things.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Amrutanshu Satpathy.</p>
+        <p>I am a Computer Science student who enjoys programming, technology and creative projects.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="card">
+            <h3>School Education</h3>
+            <p>Completed my school education.</p>
+        </div>
+
+        <div class="card">
+            <h3>College Education</h3>
+            <p>Currently pursuing B.Tech in Computer Science.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="card">
+            <h3>HTML</h3>
+            <p>Creating basic web pages.</p>
+        </div>
+
+        <div class="card">
+            <h3>CSS</h3>
+            <p>Designing and styling websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>Java and Python</h3>
+            <p>Learning programming and problem solving.</p>
+        </div>
+
+        <div class="card">
+            <h3>GDScript</h3>
+            <p>Simple commands for game development.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="card">
+            <h3>Personal Portfolio</h3>
+            <p>A website to display my personal information and skills.</p>
+        </div>
+
+        <div class="card">
+            <h3>Student Dashboard</h3>
+            <p>A simple dashboard for students.</p>
+        </div>
+    </section>
+
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Gaming</li>
+            <li>Playing Badminton</li>
+            <li>Playing Piano</li>
+            <li>Learning New Technologies</li>
+            <li>Game Development</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+            <li>Participated in college activities.</li>
+            <li>Completed programming and web development tasks.</li>
+            <li>Participated in internal hackathons.</li>
+            <li>Qualified for zonal badminton tournament.</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Email: jason.duval@gmail.com</p>
+        <p>Phone: 8249388233</p>
+
+        <h3>Send a Message</h3>
+
+        <form>
+            <input type="text" placeholder="Enter your name">
+            <input type="email" placeholder="Enter your email">
+            <textarea rows="5" placeholder="Enter your message"></textarea>
+            <button type="button">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 My Personal Portfolio. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
